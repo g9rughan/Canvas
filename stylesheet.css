@@ -1,0 +1,32 @@
+#title {
+	top: 500px;
+	left: 700px;
+	background-image: url(paint_brush.png);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: absolute;
+}
+
+body {
+	background-color: green;
+}
+
+canvas {
+	cursor: pointer;
+	border: 3px solid black;
+	background: #ffffff;
+	position:absolute;
+	
+}
+
+#buttons {
+	left: 800px;
+	position: absolute;
+	
+}
+
+#options {
+	top: 50px;
+	left: 800px;
+	position: absolute;
+}

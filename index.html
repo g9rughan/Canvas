@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Drawing program</title>
+		<link rel="stylesheet" href="stylesheet.css">
+		<script type="text/javascript" src="main.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	</head>
+	<body>
+		<h1 id="title">Paint brush</h1>
+		<canvas id="canvas" width="700" height="500">
+		</canvas>
+		<div id ="buttons">
+			<button onclick="confirmResize()">Resize Shape</button>
+			<button onclick="confirmCopy()">Copy Shape</button>
+			<button onclick="confirmDelete()">Delete Shape </button>
+			<button onclick="clearCanvas()">Clear Canvas</button>
+		</div>
+		
+		<div id = "options">
+			<label>Select Shape</label>
+			<select id="shape">
+				<option selected="selected">Line</option>
+				<option>Triangle</option>
+				<option>Square</option>
+			</select><br>
+			<label>Outline Color</label>
+			<select id="outlineColor">
+				<option selected="selected">blue</option>
+				<option>green</option>
+				<option>red</option>
+				<option>yellow</option>
+				<option>magenta</option>
+				<option>orange</option>
+				<option>brown</option>
+				<option>purple</option>
+				<option>pink</option>
+			</select><br>
+			<label>Fill Color</label>
+			<select id="fillColor">
+				<option selected="selected">green</option>
+				<option>blue</option>
+				<option>red</option>
+				<option>yellow</option>
+				<option>magenta</option>
+				<option>orange</option>
+				<option>brown</option>
+				<option>purple</option>
+				<option>pink</option>
+			</select><br>
+			<label>Outline Width</label>
+			<select id="lineWidth">
+				<option selected="selected" value = "1">One</option>
+				<option value = "2">Two</option>
+				<option value = "3">Three</option>
+				<option value = "4">Four</option>
+				<option value = "5">Five</option>
+				<option value = "6">Six</option>
+				<option value = "7">Seven</option>
+				<option value = "8">Eight</option>
+				<option value = "9">Nine</option>
+				<option value = "10">Ten</option>
+			</select><br>
+			<label>Mode</label>
+			<select id="mode">
+				<option selected="selected" value = "1">Draw</option>
+				<option value = "2">Select</option>
+			</select><br>
+		</div>
+	</body>
+</html>
